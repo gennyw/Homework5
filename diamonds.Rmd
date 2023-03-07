@@ -1,0 +1,15 @@
+---
+title: "homework5diamonds"
+author: "genevieve wallace"
+date: "2023-03-07"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+
+diamonds%>%
+  select(price, color, x)
+```
+
